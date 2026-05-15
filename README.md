@@ -8,7 +8,7 @@ graph LR
     T4 --> T5["集成测试"]
     T4 --> T3
 
-    click T3 href "https://www.github.com" _blank
+    click T3 "https://www.github.com" _blank
 
     class T1 done
     class T2 in_progress
