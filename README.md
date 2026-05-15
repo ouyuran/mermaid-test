@@ -1,6 +1,9 @@
 # mermaid-test
 ```mermaid
 graph LR
+    module[[module]]:::done ~~~ component{{component}}:::done
+    done{{done}}:::done ~~~ in_progress{{in progress}}:::in_progress ~~~ todo{{todo}}:::todo ~~~ disable{{disalbe}}:::disable
+
     T1[["PLMS VITO"]]
     T1 --> T2{{bmw_group}}
     %% T2 --> T3{{"前端开发"}}
@@ -8,7 +11,8 @@ graph LR
     T4 --> T5["集成测试"]
     T4 --> T3
 
-    click T3 "https://www.baidu.com" _blank
+
+    click T3 "https://www.github.com"
 
     class T1 done
     class T2 in_progress
